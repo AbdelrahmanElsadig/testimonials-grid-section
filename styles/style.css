@@ -57,10 +57,11 @@ body {
 
 .card h2 {
     padding-bottom: 1rem;
+    font-size: clamp(150%,200%,250%)
 }
 .card p{
     opacity: 70%;
-    font-size: 1rem;
+    font-size: clamp(100%,150%,200%);
 }
 
 .card:nth-child(1) {
@@ -92,7 +93,7 @@ body {
         grid-template-areas: 'a a b e'
                              'c d d e';
         column-gap: 1rem;
-        row-gap: 1rem;
+        row-gap: 3rem;
     }
     .card {
         width: auto;
