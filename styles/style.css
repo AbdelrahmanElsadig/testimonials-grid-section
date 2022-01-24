@@ -96,7 +96,7 @@ body {
         row-gap: 2rem;
     }
     .card {
-        width: 100%;
+        width: auto;
         height:80%;
         margin: auto auto;
     }
